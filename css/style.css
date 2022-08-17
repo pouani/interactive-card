@@ -65,7 +65,9 @@ img{
     color: var(--Light-grayish-violet);
     font-size: 12px;
 }
-
+.zero{
+    color: var(--Light-grayish-violet) !important;
+}
 .text-front{
     position: absolute;
     top: 10%;
