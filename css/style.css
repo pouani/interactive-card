@@ -45,7 +45,7 @@ img{
 .card-abs{
     z-index: 20;
     position: absolute;
-    top: 20%;
+    top: 22%;
     left: 3%;
     right: 0;
     width: 80%;
@@ -121,7 +121,7 @@ label{
 }
 
 input{
-    height: 44px;
+    height: 46px;
     width: 100%;
     border-radius: 6px;
     outline: none;
