@@ -16,7 +16,26 @@
   </style>
 </head>
 <body>
-
+  <style>
+    .card_container-header{
+    padding: 2.5rem 1.2rem;
+    padding-left: 3.5rem;
+    background-image: url(images/bg-main-mobile.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5rem;
+  }
+    @media screen and (min-width: 768px) {
+    .card_container-header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-image: url(images/bg-main-desktop.png) !important;
+        margin-bottom: 0;
+    }
+  }
+  </style>
   <div class="card">
     <div class="card_container">
       <div class="card_container-header">
